@@ -3,3 +3,12 @@
 @import 'tailwindcss/utilities';
 
 /* Your custom styles */
+body {
+    background: #040656;
+}
+.font-monoton {
+    font-family: 'Monoton', cursive;
+}
+.bg-custom-gradient {
+    background: linear-gradient(to bottom, #2c0e5b, #4447ea0e);
+}
