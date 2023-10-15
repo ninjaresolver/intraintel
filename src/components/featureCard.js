@@ -1,9 +1,9 @@
 import React from "react";
 
 const FeatureCard = (props) => {
-    const { src, title, children } = props
+    const { src, title, children, animation, animationTransform } = props
 
-    return <div className="mb-4 px-2  w-full xl:w-1/3 lg:w-1/3">
+    return <div className={ animation + " "+ animationTransform +" duration-500 mb-4 px-2  w-full xl:w-1/3 lg:w-1/3"}>
         <div className="p-4 bg-custom-gradient rounded-md shadow-md shadow-black h-[250px] overflow-hidden">
             <div className="flex gap-4 items-center">
                 <img src={src} className=" h-[80px]"/>
